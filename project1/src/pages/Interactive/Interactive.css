@@ -1,0 +1,89 @@
+.interac_cont{
+    position: relative;
+    margin-top: 90px;
+    height: 97vh;
+    width: 100%;
+    background-color: rgb(54, 50, 50);
+}
+.interac_heading {
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    color: rgb(180, 180, 172);
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    padding-top: 10px;
+}
+.interac_heading h1::after{
+    content: '';
+    position: absolute;
+    height: 6px;
+    background-color: black;
+    width: 900px;
+    bottom: -10px;
+    left: 330px;
+}
+.interac_cont img{
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    left: 500px;
+    height: 80%;
+}
+
+.interac_card1{
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    left: 860px;
+    top:150px;
+    transform: scale(0.1);
+    /* display: none; */
+    border-radius: 50%;
+    background-color: black;
+    transition: all 1s;
+    box-shadow: 0px 0px 6px 5px rgba(128, 128, 128, 0.5);
+}
+.interac_card1 h6{
+    display: none;
+}
+.interac_card2{
+    position: relative;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.5);
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    left: 960px;
+    top: 170px;
+    transform: scale(0.1);
+    /* display: none; */
+    border-radius: 50%;
+    background-color: black;
+    transition: all 1s;
+}
+.interac_card3{
+    position: relative;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.5);
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    left: 560px;
+    top: 30px;
+    transform: scale(0.1);
+    /* display: none; */
+    border-radius: 50%;
+    background-color: black;
+    transition: all 1s;
+}
+
+
+.inside_p_tag{
+    position: relative;
+    color: navajowhite;
+    font-size: 4px;
+    padding: 4px;
+}

@@ -1,0 +1,135 @@
+.login_cont{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 226, 226);
+    position: relative;
+}
+.login-box{
+    position: relative;
+    background-color: white;
+    height: 50vh;
+    width: 50vw;
+    transform: translate(10%,55%);
+}
+.login-left{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: rgb(14, 134, 138);
+}
+.login-right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+.login-right h1{
+    position: relative;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500px;
+    color: rgb(14, 134, 138);
+}
+.login_form{
+    position: relative;
+    padding: 20px 0px 0px 5px;
+    height: 80%;
+    /* background-color: aqua; */
+}
+.fname,.lname{
+    position: relative;
+    
+}
+input{
+    outline: none;
+    border: 1px solid rgb(197, 173, 127);
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: 100;
+}
+.login-but{
+    position: relative;
+    top: 5px;
+    left: 120px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(14, 134, 138);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+#bluecol{
+    color: blue;
+    padding-bottom: 2px;
+    text-decoration: underline;
+}
+.login-left h1{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 20px;
+    color: rgb(218, 217, 217);
+    letter-spacing: 2px;
+}
+.whitecol{
+    position: relative;
+    /* background-color: antiquewhite; */
+    height: 50%;
+    width: 80%;
+    margin-top: 14px;
+    margin-left: 24px;
+    line-height: 22px;
+    color: rgb(223, 221, 221);
+}
+.wannareg{
+    position: relative;
+    margin-left: -110px;
+    margin-top: 50px;
+}
+.indiv2{
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: rgb(27, 51, 51);
+    cursor: pointer;
+}
+.imagereg{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    height: 60%;
+}
+.login_first{
+    position: relative;
+    /* margin: 18px; */
+    /* margin-top: 12px; */
+    height: 90px;
+    /* background-color: antiquewhite; */
+}
+.login_first_text h2{
+    position: relative;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+    /* color: white; */
+}
+.login_first_ip input{
+    position: relative;
+    height: 40px;
+    width: 90%;
+}
+
+.login_photo{
+    position: relative;
+    left: 900px;
+    bottom: 250px;
+}
